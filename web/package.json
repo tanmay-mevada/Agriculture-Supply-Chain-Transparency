@@ -1,0 +1,64 @@
+{
+  "name": "agri-supply-chain-web",
+  "version": "1.0.0",
+  "description": "React.js dashboard for Agriculture Supply Chain Transparency Platform",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.18.0",
+    "axios": "^1.6.2",
+    "recharts": "^2.8.0",
+    "react-query": "^3.39.3",
+    "react-hook-form": "^7.47.0",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.292.0",
+    "qrcode.react": "^3.1.0",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "tailwindcss": "^3.3.5",
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "proxy": "http://localhost:3000"
+}
