@@ -2,6 +2,9 @@
 
 A comprehensive blockchain-based solution using Hyperledger Fabric to ensure transparency and traceability in the agricultural supply chain, featuring QR-based tracking, farmer empowerment, and verifiable proof of origin for consumers.
 
+## System Diagram
+
+
 ## 🌾 Overview
 
 This platform provides end-to-end transparency in the agricultural supply chain, connecting farmers, distributors, and consumers through blockchain technology. Built with Hyperledger Fabric, IPFS storage, and modern mobile/web applications.
