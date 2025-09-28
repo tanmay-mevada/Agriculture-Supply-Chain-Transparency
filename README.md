@@ -4,7 +4,7 @@ A comprehensive blockchain-based solution using Hyperledger Fabric to ensure tra
 
 ## System Diagram
 
-![System Diagram](SIHx8.svg)
+![System Diagram](System-Diagram.svg)
 
 ## Overview
 
