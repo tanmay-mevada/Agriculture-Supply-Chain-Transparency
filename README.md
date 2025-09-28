@@ -4,21 +4,22 @@ A comprehensive blockchain-based solution using Hyperledger Fabric to ensure tra
 
 ## System Diagram
 
+![System Diagram](SIHx8.svg)
 
-## 🌾 Overview
+## Overview
 
 This platform provides end-to-end transparency in the agricultural supply chain, connecting farmers, distributors, and consumers through blockchain technology. Built with Hyperledger Fabric, IPFS storage, and modern mobile/web applications.
 
-## ✨ Key Features
+## Key Features
 
-- **🔗 Blockchain Traceability**: Immutable records from farm to consumer
-- **📱 Mobile QR Scanning**: Easy product verification for farmers and consumers  
-- **🖥️ Web Dashboard**: Comprehensive admin panel for distributors
-- **📋 Digital Certificates**: IPFS-stored organic and quality certifications
-- **🌐 Real-time Tracking**: Live supply chain monitoring and updates
-- **🔐 Secure Authentication**: Multi-level access control and permissions
+- **Blockchain Traceability**: Immutable records from farm to consumer
+- **Mobile QR Scanning**: Easy product verification for farmers and consumers  
+- **Web Dashboard**: Comprehensive admin panel for distributors
+- **Digital Certificates**: IPFS-stored organic and quality certifications
+- **Real-time Tracking**: Live supply chain monitoring and updates
+- **Secure Authentication**: Multi-level access control and permissions
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -33,7 +34,7 @@ This platform provides end-to-end transparency in the agricultural supply chain,
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Docker & Docker Compose
@@ -60,7 +61,7 @@ cd ../web && npm install && npm start
 cd ../mobile && flutter pub get && flutter run
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 - **`contracts/`** - Go smart contracts for Hyperledger Fabric
 - **`mobile/`** - Flutter app for farmers and consumers
@@ -70,7 +71,7 @@ cd ../mobile && flutter pub get && flutter run
 - **`deployment/`** - Docker and cloud deployment configurations
 - **`docs/`** - Comprehensive documentation and guides
 
-## 🔧 Technology Stack
+## Technology Stack
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
@@ -83,7 +84,7 @@ cd ../mobile && flutter pub get && flutter run
 | Database | CouchDB | World state |
 | Deployment | Docker + K8s | Containerization |
 
-## 📖 Documentation
+## Documentation
 
 - **[Setup Guide](docs/setup/SETUP.md)** - Detailed installation instructions
 - **[Architecture Guide](docs/architecture/README.md)** - System design and components
@@ -91,7 +92,7 @@ cd ../mobile && flutter pub get && flutter run
 - **[User Guide](docs/guides/README.md)** - End-user documentation
 - **[Deployment Guide](docs/deployment/README.md)** - Production deployment
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -99,11 +100,11 @@ cd ../mobile && flutter pub get && flutter run
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Hyperledger Fabric community
 - IPFS team  
